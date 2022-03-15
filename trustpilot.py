@@ -16,7 +16,7 @@ from_page = 1
 to_page = 50
 
 for i in range(from_page, to_page + 1):
-    response = requests.get(f"https://www.trustpilot.com/review/YOUR-DOMAIN-HERE.COM?page={i}")
+    response = requests.get(f"https://www.trustpilot.com/review/COMPANY_NAME_HERE?page={i}")
     web_page = response.text
     soup = BeautifulSoup(web_page, "html.parser")
 
