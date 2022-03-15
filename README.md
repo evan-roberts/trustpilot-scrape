@@ -2,7 +2,7 @@
 
 *Note that Trustpilot’s HTML may be updated, in which case you should update the `class` names in your code.*
 
-## Company URL
+## Update the URL
 
 Update the `response` variable URL with your company name:
 
