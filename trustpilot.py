@@ -55,6 +55,6 @@ for i in range(from_page, to_page + 1):
         # Trustpilot page number
         page_number.append(i)
 
-
+# Create final dataframe from lists
 df_reviews = pd.DataFrame(list(zip(review_titles, review_dates_original, review_dates, review_ratings, review_texts, page_number)),
                 columns =['review_title', 'review_date_original', 'review_date', 'review_rating', 'review_text', 'page_number'])
