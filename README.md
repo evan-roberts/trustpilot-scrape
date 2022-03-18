@@ -21,3 +21,7 @@ Update which Trustpilot pages are scraped using these variables:
 If you hit any Trustpilot request limits you can wait a while before running the next batch of pages.
 
 Once you've scraped all the pages you need, you can run the last two lines to create the final dataframe `df_reviews` from the lists.
+
+---
+
+*You can find more details here: https://theleftjoin.com/scraping-trustpilot-reviews-with-python/*
